@@ -10,11 +10,12 @@ body {
     color: white;
 
     width: 80%;
+    max-width: 750px;
     margin: 0 auto;
         
-    padding: 5em;
+    padding: 3em;
     /*height: 300px;*/
 }
 .intro-content{
-    padding-right: 50%;
+    width: 50%;
 }

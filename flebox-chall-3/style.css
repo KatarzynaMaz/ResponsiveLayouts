@@ -24,6 +24,14 @@ body {
     background-color: #F3EED9;
 }
 
+/*.section__two {
+    display: flex;
+}*/
+
+.info-container {
+    display: flex;
+}
+
 .section__three {
     background-color: #222C2A;
     color: white;

@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:'Open Sans', sans-serif ;
+    }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#title {
+     color:#824936;
+    }
+
+#title2 {
+    color: #824936;
+}
+
+.section__one {
+    background-color: #F3EED9;
+}
+
+.section__three {
+    background-color: #222C2A;
+    color: white;
+}
+
+.section__four {
+    background-color: #824936;
+    color: white;
+}

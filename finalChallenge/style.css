@@ -8,8 +8,145 @@ html {
 .container {
     width: 80%;
     margin: 0 auto;
+    max-width: 1200px;
     /*display: flex;*/
 }
 #image {
     width: 100%;
+}
+header {
+   background-color: #2e323f;
+   padding: 1em 0;
+   text-align: center;
+ }
+
+.nav {
+    font-size: 1rem;
+}
+/*.nav__item {
+    margin-top: 0.1em;
+}*/
+.nav__list {
+    list-style: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__item:hover,
+.nav__item:focus {
+    opacity: 0.65;
+}
+
+.nav__link--button {
+    padding: .1em 0.75em;
+    background: #a59678;
+    border-radius: 50px;
+}
+
+.nav__list--primary {
+    margin-bottom: 1.5em;
+}
+
+.hero {
+    background-color: #3b4050;
+}
+
+.col {
+    padding: 1em 2em;
+    text-align: center;
+}
+.sidebar__card {
+    background-color:#3b4050;
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    text-align: center;
+}  
+
+.sidebar__card--title {
+    color: white;
+}
+
+.sidebar__paragraph {
+    font-size: 1.5em;
+}
+
+footer {
+    background-color:#3b4050  ;
+}
+
+.footer__title {
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.footer__sideTitle {
+    color: #A59678;
+}
+
+.footer__paragraph,
+.sidebar__paragraph {
+    color: white;
+    }
+
+    .footer__paragraph {
+        font-size: em
+    }
+
+.footer__item {
+    list-style: none;
+    color: white;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 700px) {
+
+
+    .nav__list {
+        display: flex;
+        margin: 0; 
+        position: relative;    
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .row {
+        display: flex;
+    }
+
+    .section-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: row;
+    }
+    .sidebar__card {
+        max-width: 32%;
+        margin-right: 0.5em;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .section-two {
+       
+        flex-direction: row;
+    }
 }
